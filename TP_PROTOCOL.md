@@ -109,7 +109,7 @@ If an output directory holds more than one CSV, the notebook picks the most rece
 Run analysis step 1.
 
 1. Compare the four boxplots: medians, spread, overlap, outlier years.
-2. Explain why overlapping boxplots do not settle the question of significance.
+2. For each scenario, call it from the boxplot alone: significant difference from HIST or not? Write the call down — you'll check it against the confidence intervals in Part F.
 3. Explain why the four samples are not independent of each other.
 
 **Ask the group:** which perturbation shifts central yield the most, and which one spreads the results the most?
@@ -135,8 +135,9 @@ Then read what the notebook actually reports — including the forest plot, wher
 **Ask the group:**
 
 1. Do the different tests the notebook runs agree with each other? If not, why might that be?
-2. Does a non-significant result mean there is no effect?
-3. Why does comparing three scenarios at once change how you should read each individual p-value?
+2. Given only 30 simulated years, do you have enough power to detect an effect the size of TPLUS2's? What would change your answer — more years, a larger perturbation, or a different test?
+3. Compare the raw and Holm-adjusted p-values. Does the adjustment change which scenarios you'd call significant, or only the margin?
+4. Check your Part D calls against these intervals — where did visual intuition and the formal test disagree, and why?
 
 ### Part G — Synthesise and scale up
 
